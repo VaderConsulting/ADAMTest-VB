@@ -12,7 +12,9 @@ Public Class Form1
         'Dim ServerPath As String = "LDAP://" & ServerName
         Dim Container As String = "OU=Client,DC=robinson,DC=int"
         Dim SelectedBindType As ContextOptions = ContextOptions.SimpleBind
-        Dim ConnectionAccountUsername As String = String.Empty`r`n        Dim ConnectionAccountPassword As String = String.Empty`r`n        Dim Context As New PrincipalContext(ContextType.ApplicationDirectory, ServerName, Container, SelectedBindType, ConnectionAccountUsername, ConnectionAccountPassword)
+        Dim ConnectionAccountUsername As String = String.Empty
+        Dim ConnectionAccountPassword As String = String.Empty
+        Dim Context As New PrincipalContext(ContextType.ApplicationDirectory, ServerName, Container, SelectedBindType, ConnectionAccountUsername, ConnectionAccountPassword)
 
         Dim User As New UserPrincipal(Context)
 
@@ -23,4 +25,3 @@ Public Class Form1
 
 
 End Class
-
