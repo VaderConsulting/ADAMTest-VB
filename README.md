@@ -5,7 +5,7 @@ Legacy VB.NET test harness related to ADAM/AD LDS directory scenarios.
 ## Contents
 
 - `ADAMTest.sln`
-- `Test/` — application source and forms
+- `Test/` - application source and forms
 
 ## Attribution and provenance
 
