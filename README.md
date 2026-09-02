@@ -1,5 +1,7 @@
 ﻿# ADAMTest
 
+**Source last updated:** 2010-03-13
+
 Legacy VB.NET test harness related to ADAM/AD LDS directory scenarios.
 
 ## Contents
