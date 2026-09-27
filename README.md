@@ -2,23 +2,29 @@
 
 VB.NET WinForms harness for exercising ADAM / Active Directory Application Mode (AD LDS) password checks via System.DirectoryServices.AccountManagement. Form1 builds a PrincipalContext against an application-directory host and container, creates a UserPrincipal, and runs CheckPassword for simple-bind scenarios. Aimed at developers validating AD LDS connectivity and bind options before wiring the same pattern into production tools.
 
-**Source last updated:** 2010-03-13
+**Source last updated:** 2010-03-13 · **Language:** VB.NET · **Target:** .NET Framework 3.5 · **Output:** WinForms exe
 
----
+## Solution structure
 
-## Contents
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Test` (`Test/`) | VB.NET | WinForms exe | ADAM/AD LDS PrincipalContext CheckPassword harness |
 
-- `ADAMTest.sln`
-- `Test/` - application source and forms
+## How to open
 
-## Attribution and provenance
-
-This codebase includes default Visual Studio template assembly metadata in `Test/My Project/AssemblyInfo.vb` (including Microsoft template values). No third-party source-code attribution markers were identified.
+Open `ADAMTest.sln` in Visual Studio 2008 or later.
 
 ## Requirements
 
-- Visual Studio 2008, .NET Framework 3.5
+- Visual Studio 2008 to 2017
+- .NET Framework 3.5
+- Access to an ADAM / AD LDS instance for live bind tests
+
+## Attribution and provenance
+
+my working copy from Development folder `ADAMTest-VB`.
+Default Visual Studio template assembly metadata remains in `Test/My Project/AssemblyInfo.vb` (including Microsoft template values).
 
 ## License
 
-MIT. See `LICENSE`.
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
